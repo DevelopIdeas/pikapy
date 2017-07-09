@@ -89,7 +89,7 @@ def entry():
             print('Failed to create account! General error:  {}'.format(err))
 
 def accept_tos(username, password):
-    flag = False
+    '''flag = False
     while not flag:
         try:
             api = PGoApi()
@@ -103,4 +103,4 @@ def accept_tos(username, password):
             print('Accepted Terms of Service for {}'.format(username))
             flag = True
         except ServerSideRequestThrottlingException:
-            print('This happens, just restart')
+            print('This happens, just restart')'''
